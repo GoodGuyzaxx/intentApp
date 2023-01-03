@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyIntentApp</string>
+    <string name="move_activity">Pindah Activity</string>
+    <string name="move_with_data">Pindah Activity dengan Data</string>
+    <string name="dial_nuber">Dial a number</string>
+    <string name="this_move_moveactivity">Ini MoveActivity</string>
+    <string name="data_recived">Data diterima</string>
+    <string name="file_access">Camera Access</string>
+</resources>
