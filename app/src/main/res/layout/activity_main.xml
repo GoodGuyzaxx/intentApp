@@ -36,6 +36,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/file_access"
+        android:layout_marginBottom="16dp"
+        />
+    <Button
+        android:id="@+id/btn_example"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/example_button"
         />
 
 </LinearLayout>

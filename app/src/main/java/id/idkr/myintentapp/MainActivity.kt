@@ -10,6 +10,7 @@ import android.view.View
 import android.widget.Button
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
+    lateinit var btnExampleActivity: Button
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,6 +27,12 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         val btnFileAcesss: Button = findViewById(R.id.btn_file_access)
         btnFileAcesss.setOnClickListener(this)
+
+        btnExampleActivity = findViewById(R.id.btn_example)
+        btnExampleActivity.setOnClickListener {
+            val moveIntentExample = Intent(this@MainActivity, MoveExampleActivity::class.java)
+            startActivity(moveIntentExample)
+        }
     }
 
     override fun onClick(v: View?) {
